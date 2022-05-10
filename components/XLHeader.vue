@@ -2152,14 +2152,28 @@
                 text-theme-900
               "
               to="/developer"
-              >Developer</NuxtLink
+              >Web Design</NuxtLink
+            >
+          </li>
+		  <li class="hover:bg-theme-700">
+            <NuxtLink
+              class="
+                inline-block
+                px-2
+                py-2
+                menu-item
+                hover:text-white
+                text-theme-900
+              "
+              to="/developer"
+              >Software Development</NuxtLink
             >
           </li>
           <li class="menu-item group hover:bg-theme-700">
             <NuxtLink
               class="inline-block px-2 py-2 hover:text-white text-theme-900"
               :to="$nuxt.$route.path + '#'"
-              >Lilium</NuxtLink
+              >Technology</NuxtLink
             >
             <div
               class="absolute z-10 hidden py-2 -ml-2 transition"
@@ -2189,7 +2203,7 @@
                     "
                     to="/project-details"
                   >
-                    Project Details</NuxtLink
+                    Technology</NuxtLink
                   >
                 </li>
                 <li>
@@ -2205,152 +2219,8 @@
                     "
                     to="/location-map"
                   >
-                    Location Map
+                    Data Centre
                     </NuxtLink>
-                </li>
-                <li>
-                  <NuxtLink
-                    to="/site-plan"
-                    class="
-                      inline-block
-                      w-full
-                      px-2
-                      py-2
-                      menu-item
-                      text-theme-900
-                      hover:bg-theme-100
-                    "
-                  >
-                    Site Plan
-                  </NuxtLink>
-                </li>
-				<li>
-                  <NuxtLink
-                    to="/360-degree-view-site-plan"
-                    class="
-                      inline-block
-                      w-full
-                      px-2
-                      py-2
-                      menu-item
-                      text-theme-900
-                      hover:bg-theme-100
-                    "
-                  >
-                    Virtual Tour
-                  </NuxtLink>
-                </li>
-                <li>
-                  <NuxtLink
-                    to="/floor-plan"
-                    class="
-                      inline-block
-                      w-full
-                      px-2
-                      py-2
-                      menu-item
-                      text-theme-900
-                      hover:bg-theme-100
-                    "
-                  >
-                    Floor Plan
-                  </NuxtLink>
-                </li>
-                <li>
-                  <NuxtLink
-                    to="/pricing"
-                    class="
-                      inline-block
-                      w-full
-                      px-2
-                      py-2
-                      menu-item
-                      text-theme-900
-                      hover:bg-theme-100
-                    "
-                  >
-                    Pricing
-                  </NuxtLink>
-                </li>
-                <li>
-                  <NuxtLink
-                    to="/gallery"
-                    class="
-                      inline-block
-                      w-full
-                      px-2
-                      py-2
-                      menu-item
-                      text-theme-900
-                      hover:bg-theme-100
-                    "
-                  >
-                    Gallery
-                  </NuxtLink>
-                </li>
-                <li>
-                  <NuxtLink
-                    to="/video"
-                    class="
-                      inline-block
-                      w-full
-                      px-2
-                      py-2
-                      menu-item
-                      text-theme-900
-                      hover:bg-theme-100
-                    "
-                  >
-                    Video
-                  </NuxtLink>
-                </li>
-                <li>
-                  <NuxtLink
-                    to="/e-brochure"
-                    class="
-                      inline-block
-                      w-full
-                      px-2
-                      py-2
-                      menu-item
-                      text-theme-900
-                      hover:bg-theme-100
-                    "
-                  >
-                    e-Brochure
-                  </NuxtLink>
-                </li>
-                <li>
-                  <NuxtLink
-                    to="/elevation-chart"
-                    class="
-                      inline-block
-                      w-full
-                      px-2
-                      py-2
-                      menu-item
-                      text-theme-900
-                      hover:bg-theme-100
-                    "
-                  >
-                    Elevation Chart
-                  </NuxtLink>
-                </li>
-                <li>
-                  <NuxtLink
-                    to="/balance-units-chart"
-                    class="
-                      inline-block
-                      w-full
-                      px-2
-                      py-2
-                      menu-item
-                      text-theme-900
-                      hover:bg-theme-100
-                    "
-                  >
-                    Balance Units Chart
-                  </NuxtLink>
                 </li>
               </ul>
             </div>
@@ -2359,7 +2229,7 @@
             <NuxtLink
               class="inline-block px-2 py-2 hover:text-white text-theme-900"
               :to="$nuxt.$route.path + '#'"
-              >Gazania</NuxtLink
+              >About Us</NuxtLink
             >
             <div
               class="absolute z-10 hidden py-2 -ml-2 transition"
@@ -2389,7 +2259,7 @@
                     "
                     to="/gazania/project-details"
                   >
-                    Project Details</NuxtLink
+                    About Us</NuxtLink
                   >
                 </li>
                 <li>
@@ -2405,7 +2275,7 @@
                     "
                     to="/gazania/location-map"
                   >
-                    Location Map
+                    Support
                     </NuxtLink>
                 </li>
                 <li>
@@ -2421,541 +2291,7 @@
                       hover:bg-theme-100
                     "
                   >
-                    Site Plan
-                  </NuxtLink>
-                </li>
-				<li>
-                  <NuxtLink
-                    to="/gazania/360-degree-view-site-plan"
-                    class="
-                      inline-block
-                      w-full
-                      px-2
-                      py-2
-                      menu-item
-                      text-theme-900
-                      hover:bg-theme-100
-                    "
-                  >
-                    Virtual Tour
-                  </NuxtLink>
-                </li>
-                <li>
-                  <NuxtLink
-                    to="/gazania/floor-plan"
-                    class="
-                      inline-block
-                      w-full
-                      px-2
-                      py-2
-                      menu-item
-                      text-theme-900
-                      hover:bg-theme-100
-                    "
-                  >
-                    Floor Plan
-                  </NuxtLink>
-                </li>
-                <li>
-                  <NuxtLink
-                    to="/gazania/pricing"
-                    class="
-                      inline-block
-                      w-full
-                      px-2
-                      py-2
-                      menu-item
-                      text-theme-900
-                      hover:bg-theme-100
-                    "
-                  >
-                    Pricing
-                  </NuxtLink>
-                </li>
-                <li>
-                  <NuxtLink
-                    to="/gazania/gallery"
-                    class="
-                      inline-block
-                      w-full
-                      px-2
-                      py-2
-                      menu-item
-                      text-theme-900
-                      hover:bg-theme-100
-                    "
-                  >
-                    Gallery
-                  </NuxtLink>
-                </li>
-                <li>
-                  <NuxtLink
-                    to="/gazania/video"
-                    class="
-                      inline-block
-                      w-full
-                      px-2
-                      py-2
-                      menu-item
-                      text-theme-900
-                      hover:bg-theme-100
-                    "
-                  >
-                    Video
-                  </NuxtLink>
-                </li>
-                <li>
-                  <NuxtLink
-                    to="/gazania/e-brochure"
-                    class="
-                      inline-block
-                      w-full
-                      px-2
-                      py-2
-                      menu-item
-                      text-theme-900
-                      hover:bg-theme-100
-                    "
-                  >
-                    e-Brochure
-                  </NuxtLink>
-                </li>
-                <li>
-                  <NuxtLink
-                    to="/gazania/elevation-chart"
-                    class="
-                      inline-block
-                      w-full
-                      px-2
-                      py-2
-                      menu-item
-                      text-theme-900
-                      hover:bg-theme-100
-                    "
-                  >
-                    Elevation Chart
-                  </NuxtLink>
-                </li>
-                <li>
-                  <NuxtLink
-                    to="/gazania/balance-units-chart"
-                    class="
-                      inline-block
-                      w-full
-                      px-2
-                      py-2
-                      menu-item
-                      text-theme-900
-                      hover:bg-theme-100
-                    "
-                  >
-                    Balance Units Chart
-                  </NuxtLink>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="menu-item group hover:bg-theme-700">
-            <NuxtLink
-              class="inline-block px-2 py-2 hover:text-white text-theme-900"
-              :to="$nuxt.$route.path + '#'"
-              >Serangoon</NuxtLink
-            >
-            <div
-              class="absolute z-10 hidden py-2 -ml-2 transition"
-              style="min-width: 300px"
-            >
-              <ul
-                class="
-                  p-2
-                  space-y-1
-                  overflow-hidden
-                  text-sm
-                  bg-white
-                  rounded
-                  shadow-md
-                "
-              >
-                <li>
-                  <NuxtLink
-                    to="/serangoon-ura-masterplan"
-                    class="
-                      inline-block
-                      w-full
-                      px-2
-                      py-2
-                      menu-item
-                      text-theme-900
-                      hover:bg-theme-100
-                    "
-                  >
-                    Serangoon URA Master Plan
-                  </NuxtLink>
-                </li>
-				<li>
-                  <NuxtLink
-                    to="/payar-lebar"
-                    class="
-                      inline-block
-                      w-full
-                      px-2
-                      py-2
-                      menu-item
-                      text-theme-900
-                      hover:bg-theme-100
-                    "
-                  >
-                    Payar Lebar Airbase
-                  </NuxtLink>
-                </li>
-				<li>
-                  <NuxtLink
-                    to="/bidadari-park"
-                    class="
-                      inline-block
-                      w-full
-                      px-2
-                      py-2
-                      menu-item
-                      text-theme-900
-                      hover:bg-theme-100
-                    "
-                  >
-                    Bidadari Park
-                  </NuxtLink>
-                </li>
-                <li>
-                  <NuxtLink
-                    to="/cross-island-line"
-                    class="
-                      inline-block
-                      w-full
-                      px-2
-                      py-2
-                      menu-item
-                      text-theme-900
-                      hover:bg-theme-100
-                    "
-                  >
-                    Cross Island Line (CRL)
-                  </NuxtLink>
-                </li>
-                <li>
-                  <NuxtLink
-                    to="/bidadari-estate"
-                    class="
-                      inline-block
-                      w-full
-                      px-2
-                      py-2
-                      menu-item
-                      text-theme-900
-                      hover:bg-theme-100
-                    "
-                  >
-                    URA: Bidadari Estate
-                  </NuxtLink>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="menu-item group hover:bg-theme-700">
-            <NuxtLink
-              class="inline-block px-2 py-2 hover:text-white text-theme-900"
-              :to="$nuxt.$route.path + '#'"
-              >Press</NuxtLink
-            >
-            <div
-              class="absolute z-10 hidden py-2 -ml-2 transition"
-              style="min-width: 300px"
-            >
-              <ul
-                class="
-                  p-2
-                  space-y-1
-                  overflow-hidden
-                  text-sm
-                  bg-white
-                  rounded
-                  shadow-md
-                "
-              >
-                <li>
-                  <NuxtLink
-                    to="/press/press-one"
-                    class="
-                      inline-block
-                      w-full
-                      px-2
-                      py-2
-                      menu-item
-                      text-theme-900
-                      hover:bg-theme-100
-                    "
-                  >
-                    New Private Home Sales Up 57%, Highest For December In 8 Years: Ura Data
-                  </NuxtLink>
-                </li>
-                <li>
-                  <NuxtLink
-                    to="/press/press-two"
-                    class="
-                      inline-block
-                      w-full
-                      px-2
-                      py-2
-                      menu-item
-                      text-theme-900
-                      hover:bg-theme-100
-                    "
-                  >
-                    Resale Condo Prices Maintain Upward Trend
-                  </NuxtLink>
-                </li>
-                <li>
-                  <NuxtLink
-                    to="/press/press-three"
-                    class="
-                      inline-block
-                      w-full
-                      px-2
-                      py-2
-                      menu-item
-                      text-theme-900
-                      hover:bg-theme-100
-                    "
-                  >
-                    Private Home Prices Up 2.1% In Third Straight Quarterly Gain
-                  </NuxtLink>
-                </li>
-                <li>
-                  <NuxtLink
-                    to="/press/press-four"
-                    class="
-                      inline-block
-                      w-full
-                      px-2
-                      py-2
-                      menu-item
-                      text-theme-900
-                      hover:bg-theme-100
-                    "
-                  >
-                    New Home Sales Set To Rise After Falling In Oct On Fewer Launches, Options Curb
-                  </NuxtLink>
-                </li>
-                <li>
-                  <NuxtLink
-                    to="/press/press-five"
-                    class="
-                      inline-block
-                      w-full
-                      px-2
-                      py-2
-                      menu-item
-                      text-theme-900
-                      hover:bg-theme-100
-                    "
-                  >
-                    New Private Home Sales Hit A High In September
-                  </NuxtLink>
-                </li>
-				<li>
-                  <NuxtLink
-                    to="/press/press-six"
-                    class="
-                      inline-block
-                      w-full
-                      px-2
-                      py-2
-                      menu-item
-                      text-theme-900
-                      hover:bg-theme-100
-                    "
-                  >
-                    Govt Cuts Private Housing Supply From Confirmed Land Sale Sites : Straight Times
-                  </NuxtLink>
-                </li>
-				<li>
-                  <NuxtLink
-                    to="/press/press-seven"
-                    class="
-                      inline-block
-                      w-full
-                      px-2
-                      py-2
-                      menu-item
-                      text-theme-900
-                      hover:bg-theme-100
-                    "
-                  >
-                    Easing Singapore Property Curbs Not On Radar Says DPM Heng
-                  </NuxtLink>
-                </li>
-				<li>
-                  <NuxtLink
-                    to="/press/press-eight"
-                    class="
-                      inline-block
-                      w-full
-                      px-2
-                      py-2
-                      menu-item
-                      text-theme-900
-                      hover:bg-theme-100
-                    "
-                  >
-                    2019 New Home Sales Top 10,000 Units, Up 15% From Year Ago
-                  </NuxtLink>
-                </li>
-				<li>
-                  <NuxtLink
-                    to="/press/press-nine"
-                    class="
-                      inline-block
-                      w-full
-                      px-2
-                      py-2
-                      menu-item
-                      text-theme-900
-                      hover:bg-theme-100
-                    "
-                  >
-                    Singapore's Property Market Can Withstand The Impact Of Covid-19
-                  </NuxtLink>
-                </li>
-				<li>
-                  <NuxtLink
-                    to="/press/press-ten"
-                    class="
-                      inline-block
-                      w-full
-                      px-2
-                      py-2
-                      menu-item
-                      text-theme-900
-                      hover:bg-theme-100
-                    "
-                  >
-                    Singapore Developers Sell 952 Private Homes in May, Up 29.5% From April's 735 Units
-                  </NuxtLink>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="menu-item group hover:bg-theme-700">
-            <NuxtLink
-              :to="$nuxt.$route.path + '#'"
-              class="
-                inline-block
-                px-2
-                py-2
-                text-theme-900
-                group-hover:text-white
-              "
-            >
-              Financing
-            </NuxtLink>
-            <div
-              class="absolute z-10 hidden py-2 -ml-2 transition"
-              style="min-width: 300px"
-            >
-              <ul
-                class="
-                  p-2
-                  space-y-1
-                  overflow-hidden
-                  text-sm
-                  bg-white
-                  rounded
-                  shadow-md
-                "
-              >
-                <li>
-                  <NuxtLink
-                    to="/financing/stamp-duty"
-                    class="
-                      inline-block
-                      w-full
-                      px-2
-                      py-2
-                      menu-item
-                      text-theme-900
-                      hover:bg-theme-100
-                    "
-                  >
-                    Stamp Duty
-                  </NuxtLink>
-                </li>
-                <li>
-                  <NuxtLink
-                    to="/financing/payment-scheme"
-                    class="
-                      inline-block
-                      w-full
-                      px-2
-                      py-2
-                      menu-item
-                      text-theme-900
-                      hover:bg-theme-100
-                    "
-                  >
-                    Payment Scheme
-                  </NuxtLink>
-                </li>
-                <li>
-                  <NuxtLink
-                    to="/financing/housing-loan-information"
-                    class="
-                      inline-block
-                      w-full
-                      px-2
-                      py-2
-                      menu-item
-                      text-theme-900
-                      hover:bg-theme-100
-                    "
-                  >
-                    Housing Loan Information
-                  </NuxtLink>
-                </li>
-                <li class="py-3 text-center text-gray-600 select-none">
-                  <div class="relative border-t border-gray-500 border-dashed">
-                    <p class="relative -mt-3">
-                      <span class="bg-white">Calculator</span>
-                    </p>
-                  </div>
-                </li>
-                <li>
-                  <NuxtLink
-                    to="/financing/maximum-loan-eligibility-calculator-tdsr"
-                    class="
-                      inline-block
-                      w-full
-                      px-2
-                      py-2
-                      menu-item
-                      text-theme-900
-                      hover:bg-theme-100
-                    "
-                  >
-                    Maximum Loan Eligibility Calculator (TDSR)
-                  </NuxtLink>
-                </li>
-                <li>
-                  <NuxtLink
-                    to="/financing/rental-yield-calculator"
-                    class="
-                      inline-block
-                      w-full
-                      px-2
-                      py-2
-                      menu-item
-                      text-theme-900
-                      hover:bg-theme-100
-                    "
-                  >
-                    Rental Yield Calculator
+                    Clients
                   </NuxtLink>
                 </li>
               </ul>
@@ -2963,7 +2299,7 @@
           </li>
           <li class="hover:bg-theme-700">
             <NuxtLink
-              to="/book-an-appointment"
+              to="/contact-us"
               class="
                 inline-block
                 px-2
@@ -2973,7 +2309,7 @@
                 text-theme-900
               "
             >
-              Book Showflat
+              Contact Us
             </NuxtLink>
           </li>
           <li class="hover:bg-theme-700">
@@ -2988,14 +2324,14 @@
                 text-theme-900
               "
             >
-              Contact
+              FAQ
             </NuxtLink>
           </li>
         </ul>
       </div>
       <div class="flex flex-wrap items-center p-1">
         <NuxtLink
-          to="/book-an-appointment"
+          to="/contact-us"
           class="
             inline-block
             font-medium
@@ -3006,7 +2342,7 @@
             hover:bg-theme-900
             p-2
           "
-          >Get VVIP Discount</NuxtLink
+          >Contact Us</NuxtLink
         >
       </div>
     </div>

@@ -92,10 +92,10 @@
       <div class="max-w-6xl px-4 mx-auto">
         <div class="py-10 space-y-1 text-center text-white">
           <h3 class="text-xl font-semibold sm:text-2xl tracking-widest">
-            The Lilium &amp; The Gazania
+            Web Hosting
           </h3>
           <h4 class="text-xl font-medium">
-            Official Website By SingHaiyi Huajiang Pte. Ltd.
+            Official Website By DL Digital
           </h4>
         </div>
       </div>
@@ -105,7 +105,7 @@
         <NuxtLink to="/floor-plan" class=""
           ><div class="max-w-sm mx-auto group">
             <img
-              src="~/assets/img/home/home-floor-plan.jpg"
+              src="~/assets/img/home/WebDesign.jpg"
               alt="Floor Plan"
               class="w-full rounded shadow"
             />
@@ -123,7 +123,7 @@
                 "
               >
                 <div class="space-y-px text-center">
-                  <p class="font-bold text-theme-800">Full Floor Plan</p>
+                  <p class="font-bold text-theme-800">Website Design Service</p>
                   <p
                     class="
                       text-xl
@@ -133,7 +133,7 @@
                       group-hover:text-gray-500
                     "
                   >
-                    Floor Plan
+                    Web Designs
                   </p>
                 </div>
               </div>
@@ -143,7 +143,7 @@
         <NuxtLink to="/book-an-appointment" class=""
           ><div class="max-w-sm mx-auto group">
             <img
-              src="~/assets/img/home/home-book-appointment-1.jpg"
+              src="~/assets/img/home/SoftwareDevelopment.jpg"
               alt="Get Direct Discounts"
               class="w-full rounded shadow"
             />
@@ -161,7 +161,7 @@
                 "
               >
                 <div class="space-y-px text-center">
-                  <p class="font-bold text-theme-800">Book Appointment</p>
+                  <p class="font-bold text-theme-800">Software Developer Service</p>
                   <p
                     class="
                       text-xl
@@ -171,7 +171,7 @@
                       group-hover:text-gray-500
                     "
                   >
-                    Get Direct Discounts
+                    Software Development
                   </p>
                 </div>
               </div>
@@ -181,7 +181,7 @@
         <NuxtLink to="/contact-us" class=""
           ><div class="max-w-sm mx-auto group">
             <img
-              src="~/assets/img/home/home-best-price.jpg"
+              src="~/assets/img/home/Technology.jpg"
               alt="Daily Price Updates"
               class="w-full rounded shadow"
             />
@@ -199,7 +199,7 @@
                 "
               >
                 <div class="space-y-px text-center">
-                  <p class="font-bold text-theme-800">Price List</p>
+                  <p class="font-bold text-theme-800">Technology</p>
                   <p
                     class="
                       text-xl
@@ -209,7 +209,7 @@
                       group-hover:text-gray-500
                     "
                   >
-                    Daily Price Updates
+                    Technology
                   </p>
                 </div>
               </div>
@@ -227,6 +227,6 @@ export default {}
 
 <style scope>
 #main_banner {
-  background-image: url('~assets/img/home/The-Lilium-Perspective-3.jpg');
+  background-image: url('~assets/img/home/Banner.jpg');
 }
 </style>

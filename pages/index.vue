@@ -4,95 +4,45 @@
       <HomeMainBanner />
       <section>
         <div class="px-4 mb-6 text-center">
-          <h3 class="text-xl font-semibold sm:text-2xl tracking-widest">
-            The Lilium 
-          </h3>
-          <p>
-            Latest Unit Sold: #05-13 | 01 March 2022
-            <NuxtLink
-              to="/balance-units-chart"
-              class="font-medium hover:underline text-theme-600"
-              >See the Balance Units Chart</NuxtLink
-            >
-          </p>
-          <h3 class="text-xl font-semibold sm:text-2xl tracking-widest">
-            The Gazania
-          </h3>
-          <p>
-            Latest Unit Sold: #01-35 | 01 March 2022
-            <NuxtLink
-              to="/gazania/balance-units-chart"
-              class="font-medium hover:underline text-theme-600"
-              >See the Balance Units Chart</NuxtLink
-            >
-          </p>
+          <h2 class="text-xl font-semibold sm:text-2xl tracking-widest">
+            
+          </h2><br>
+          
         </div>
         <div class="py-6 bg-theme-50">
           <div class="text-center">
-            <h4 class="text-xl font-medium">Latest Updates</h4>
-           <b> <p class="text-gray-600">Last updated: {{currentDate()}} </p> </b>
+            <h2 class="text-xl font-bold sm:text-2xl tracking-widest">Fast And Secure Web Hosting For Businesses</h2>
+           <b>  </b>
           </div>
           <div class="max-w-6xl px-4 mx-auto prose text-gray-800">
-            <div class="max-w-2xl px-4 mx-auto">
+            <div class="sm:text-2xl max-w-2xl px-4 mx-auto">
               <ul>
                 <li>
-                  <strong>01-03-2022:</strong>
-                  <NuxtLink to="/book-an-appointment" class="!text-theme-600"
-                    >Book an Appointment</NuxtLink
-                  >
-                  to view The Lilium &amp; The Gazania Show Flat and get Direct Developer
-                  Price + Discounts.
+                  <strong>Easy sitebuilding &amp; management</strong>
                 </li>
                 <li>
-                  <strong>01-03-2022:</strong> Check our latest
-                  <NuxtLink to="/balance-units-chart" class="!text-theme-600">
-                    The Lilium Balance Unit
-                  </NuxtLink>
-                  here
+                  <strong>Ultrafast website speed</strong> 
                 </li>
                 <li>
-                  <strong>01-03-2022:</strong> Check our latest
-                  <NuxtLink to="/gazania/balance-units-chart" class="!text-theme-600">
-                    The Gazania Balance Unit
-                  </NuxtLink>
-                  here
+                  <strong>Built-in web security</strong> 
                 </li>
                 <li>
-                  <strong>22-01-2022:</strong> Check our latest
-                  <NuxtLink to="/pricing" class="!text-theme-600">
-                    The Lilium Pricing
-                  </NuxtLink>
-                  here
-                </li>
-                 <li>
-                  <strong>22-01-2022:</strong> Check our latest
-                  <NuxtLink to="/gazania/pricing" class="!text-theme-600">
-                    The Gazania Pricing
-                  </NuxtLink>
-                  here
-                </li>
-                <li>
-                  <strong>20-01-2022:</strong>The latest  
-                  <NuxtLink to="/floor-plan" class="!text-theme-600"
-                    >The Lilium Floor Plan</NuxtLink
-                  > is now available.
-                </li>
-                <li>
-                  <strong>20-01-2022:</strong>The latest  
-                  <NuxtLink to="/gazania/floor-plan" class="!text-theme-600"
-                    >The Gazania Floor Plan</NuxtLink
-                  > is now available.
-                </li>
-                <li>
-                  <strong>20-10-2021:</strong> Check your loan eligibility by
-                  calculating at
-                  <NuxtLink
-                    to="/financing/maximum-loan-eligibility-calculator-tdsr"
-                    class="!text-theme-600"
-                    >Max Loan Eligibility Calculator (TDSR)</NuxtLink
-                  >
-                  on this website.
-                </li>
+                  <strong>Trusted by 2,800,000 domains</strong> 
+                </li><br>
+                 <NuxtLink
+                to="/book-an-appointment"
+                class="
+                  inline-block
+                  font-medium
+                  text-white
+                  transition
+                  rounded
+                  bg-theme-600
+                  hover:bg-theme-900
+                  p-2
+                  "
+                >Display Technology</NuxtLink
+              >
               </ul>
             </div>
           </div>
@@ -113,55 +63,100 @@
                 shadow-md
               "
             >
-              <img
-                src="~/assets/img/home/singhaiyi-logo.jpg"
-                alt="The Lilium &amp; The Gazania Developer"
-                class="mx-auto rounded"
-              />
-              <p class="text-lg font-semibold">The Lilium &amp; The Gazania</p>
-              <div class="space-y-4">
-                <p>
-                  <NuxtLink
-                    to="/developer"
-                    class="transition text-theme-600 hover:text-theme-700"
-                    >SingHaiYi Group Pte. Ltd.</NuxtLink> is a Singapore public listed business that specialises in property development, investment, 
-                  and management services, is developing <br> <NuxtLink
-                  to="/"
-                  aria-current="page"
-                  class="transition text-theme-600 hover:text-theme-700"
-                  >The Lilium</NuxtLink> &amp; <NuxtLink
-                  to="/"
-                  aria-current="page"
-                  class="transition text-theme-600 hover:text-theme-700"
-                  >The Gazania</NuxtLink>
-                </p>
-                <p>
-                  Future owners of The Lilium and The Gazania will benefit from both developments’ benefits thanks to the developers' trust in a robust demand for such 
-                  locations and economies of scale. 
-                  <NuxtLink
-                    to="/developer"
-                    class="transition text-theme-600 hover:text-theme-700"
-                    >SingHaiYi Group Pte. Ltd.</NuxtLink> is well-established in Singapore, but it has also expanded its portfolio to include 
-                  the United States, Australia, and Malaysia.
+              
+              <p class="text-lg font-bold sm:text-3xl" >StartUp</p>
+              <p class="text-lg font-semibold sm:text-2xl">SAVE 73%</p>
+              <p class="text-lg font-semibold sm:text-1xl">$3.99/mo.</p>
+              <p class="text-sm sm:text-1xl">Discounted from $14.99/mo.</p>
+              <br>
+              <NuxtLink
+                to="/book-an-appointment"
+                class="
+                  inline-block
+                  font-medium
+                  text-white
+                  transition
+                  rounded
+                  bg-theme-600
+                  hover:bg-theme-900
+                  p-2
+                  "
+                >Get Plan</NuxtLink
+              >
+              <br>
+              <br>
+              <p class="text-lg sm:text-1xl"><strong> 1 </strong>Website</p>
+              <p class="text-lg sm:text-1xl"><strong> 10 </strong>GB Web Space</p>
+              <p class="text-lg sm:text-1xl"><strong> ~ 10,000 </strong>Visits Monthly</p>
+              <p class="text-lg sm:text-1xl"><strong> Unmetered </strong>Traffic</p>
+              <p class="text-lg sm:text-1xl"><strong> Free </strong>SSL</p>
+              <p class="text-lg sm:text-1xl">Daily Backup</p>
+              <p class="text-lg sm:text-1xl"><strong> Free </strong>CDN</p>
+              <p class="text-lg sm:text-1xl"><strong> Free </strong>Email</p>
+              <p class="text-lg sm:text-1xl">Enhanced<strong> Security </strong></p>
+              <p class="text-lg sm:text-1xl"><strong> Ecommerce </strong>Enabled</p>
+              <p class="text-lg sm:text-1xl"><strong> Managed </strong>WordPress</p>
+              <p class="text-lg sm:text-1xl"><strong> Out-of-the-box </strong>Caching</p>
+              <p class="text-lg sm:text-1xl"><strong> Unlimited </strong>Databases</p>
+              <p class="text-lg sm:text-1xl">100% renewable energy match</p>
+              <p class="text-lg sm:text-1xl">30-Days<strong> Money-Back </strong></p>
+              <p class="text-lg sm:text-1xl"><strong> Add Collaborators </strong></p>
+            </div>
+            <div
+              class="
+                max-w-sm
+                p-6
+                mx-auto
+                space-y-2
+                text-center
+                bg-white
+                rounded-md
+                shadow-md
+              "
+            >
+              
+              <p class="text-lg font-bold sm:text-3xl" >GrowBig</p>
+              <p class="text-lg font-semibold sm:text-2xl">SAVE 73%</p>
+              <p class="text-lg font-semibold sm:text-1xl">$6.69/mo.</p>
+              <p class="text-sm sm:text-1xl">Discounted from $24.99/mo.</p>
+              <br>
+              <NuxtLink
+                to="/book-an-appointment"
+                class="
+                  inline-block
+                  font-medium
+                  text-white
+                  transition
+                  rounded
+                  bg-theme-600
+                  hover:bg-theme-900
+                  p-2
+                  "
+                >Get Plan</NuxtLink
+              >
+              <br>
+              <br>
+              <p class="text-lg sm:text-1xl"><strong> 2-5 </strong>Website</p>
+              <p class="text-lg sm:text-1xl"><strong> 20 </strong>GB Web Space</p>
+              <p class="text-lg sm:text-1xl"><strong> ~ 100,000 </strong>Visits Monthly</p>
+              <p class="text-lg sm:text-1xl"><strong> Unmetered </strong>Traffic</p>
+              <p class="text-lg sm:text-1xl"><strong> Free </strong>SSL</p>
+              <p class="text-lg sm:text-1xl">Daily Backup</p>
+              <p class="text-lg sm:text-1xl"><strong> Free </strong>CDN</p>
+              <p class="text-lg sm:text-1xl"><strong> Free </strong>Email</p>
+              <p class="text-lg sm:text-1xl">Enhanced<strong> Security </strong></p>
+              <p class="text-lg sm:text-1xl"><strong> Ecommerce </strong>Enabled</p>
+              <p class="text-lg sm:text-1xl"><strong> Managed </strong>WordPress</p>
+              <p class="text-lg sm:text-1xl"><strong> Out-of-the-box </strong>Caching</p>
+              <p class="text-lg sm:text-1xl"><strong> Unlimited </strong>Databases</p>
+              <p class="text-lg sm:text-1xl">100% renewable energy match</p>
+              <p class="text-lg sm:text-1xl">30-Days<strong> Money-Back </strong></p>
+              <p class="text-lg sm:text-1xl"><strong> Add Collaborators </strong></p>
+              <p class="text-lg sm:text-4xl"><strong> &#43; </strong></p>
+              <p class="text-medium font-bold sm:text-1xl"> On-demand Backup Copies </p>
+              <p class="text-medium font-bold sm:text-1xl"> 30% Faster PHP </p>
+              <p class="text-medium font-bold sm:text-1xl"> Staging </p>
 
-                </p>
-                <p>
-                  Our current project at 9 Penang Road, formerly Park Mall, is a new Grade A commercial structure with 10 floors and two wings. 
-                  Future residents of <br> 
-                  <NuxtLink
-                  to="/"
-                  aria-current="page"
-                  class="nuxt-link-exact-active nuxt-link-active transition text-theme-600 hover:text-theme-700"
-                  >The Lilium</NuxtLink
-                > &amp; 
-                <NuxtLink
-                  to="/"
-                  aria-current="page"
-                  class="transition text-theme-600 hover:text-theme-700"
-                  >The Gazania</NuxtLink>
-                will not be disappointed, we are convinced.
-                </p>
-              </div>
             </div>
             <div
               class="
@@ -175,103 +170,52 @@
                 shadow-md
               "
             >
-              <img
-                src="~/assets/img/home/map-location-thelilium.png"
-                alt="The Lilium &amp; Gazania Location Map"
-                class="mx-auto rounded"
-              />
-              <p class="text-lg font-semibold">The Lilium &amp; Gazania Location Map</p>
-              <div class="space-y-4">
-                <p>
-                  Along the Upper Paya Lebar Road, the Lilium is located on How Sun Road. The Bartley MRT Station is only a 5-minute walk away, 
-                  and the Serangoon MRT Interchange station is only one station away. Major expressways like the Central Expressway (CTE), 
-                  Pan-Island Expressway (PIE), and Kallang-Paya Lebar Expressway connect to the Lilium (KPE).
-                  The list of nearby amenities can be found 
-                  here at <NuxtLink
-                    to="/location-map"
-                    class="transition text-theme-600 hover:text-theme-700"
-                    >The Lilium Location Map</NuxtLink>.
-                </p>
-                <p>
-                  The Gazania condominium is located on <NuxtLink
-                    to="/gazania/location-map"
-                    class="transition text-theme-600 hover:text-theme-700"
-                    >How Sun Drive</NuxtLink> in 
-                    <NuxtLink
-                    to="/gazania/location-map"
-                    class="transition text-theme-600 hover:text-theme-700"
-                    >District 19</NuxtLink> in the Bartley neighbourhood. 
-                  The Upper Paya Lebar Road stretch of several eateries is only a 5-minute walk away.
-                </p>
-                <p>
-                  In addition, famous institutions such as Maris Stella, Paya Lebar Methodist, and St Gabriel's Secondary School 
-                  are all within 1km of the private and freehold condominium. The nearest MRT station, Bartley MRT, is only a 3-minute walk 
-                  from the future Condominium's Main Gate.
-                </p>
-                <p>
-                  The list of nearby amenities can be found 
-                  here at <NuxtLink
-                    to="/gazania/location-map"
-                    class="transition text-theme-600 hover:text-theme-700"
-                    >The Gazania Location Map</NuxtLink>.
-                </p>
-              </div>
-            </div>
-            <div
-              class="
-                max-w-sm
-                p-6
-                mx-auto
-                space-y-2
-                text-center
-                bg-white
-                rounded-md
-                shadow-md
-              "
-            >
-              <img
-                src="~/assets/img/home/showflat-thelilium.png"
-                alt="The LiLium &amp; The Gazania Showflat"
-                class="mx-auto rounded"
-              />
-              <p class="text-lg font-semibold">The Lilium &amp; The Gazania Showflat</p>
-              <div class="space-y-4">
-                <p>
-                  Secure your
-                  <NuxtLink
-                    to="/book-an-appointment"
-                    class="transition text-theme-600 hover:text-theme-700"
-                    >The Lilium &amp; The Gazania Showflat appointment here</NuxtLink
-                  >, register via our official site. Or contact us at +65 6100
-                  3337 before making your way down the showflat. Showflat will
-                  be closed on certain days due to routine maintenance work or
-                  developer hosting own private events which is close to public.
-                  Therefore, interested buyers are advice to obtain
-                  anappointment online before proceeding.
-                </p>
-                <p>
-                  Due to COVID19, there will be LIMITED time slot per day,
-                  please reserve an appointment online before making your way
-                  down to The Lilium &amp; The Gazania ShowFlat.
-                </p>
-                <p>
-                  All registrants who have
-                  <NuxtLink
-                    to="/book-an-appointment"
-                    class="transition text-theme-600 hover:text-theme-700"
-                    >registered an appointment here</NuxtLink
-                  >
-                  will receive Best Developer Pricing and COMMISION are
-                  NON-payable. Please be advise that units for sale at The Lilium &amp; The Gazania
-                  are on first come first serve basis. Reservations of unit
-                  is only up to 2 hours and subjected to management’s
-                  authorization.
-                </p>
-                <p>
-                  Any price changes will be subjected to changes without any
-                  prior notice.
-                </p>
-              </div>
+              
+              <p class="text-lg font-bold sm:text-3xl" >GrowBig</p>
+              <p class="text-lg font-semibold sm:text-2xl">SAVE 73%</p>
+              <p class="text-lg font-semibold sm:text-1xl">$6.69/mo.</p>
+              <p class="text-sm sm:text-1xl">Discounted from $24.99/mo.</p>
+              <br>
+              <NuxtLink
+                to="/book-an-appointment"
+                class="
+                  inline-block
+                  font-medium
+                  text-white
+                  transition
+                  rounded
+                  bg-theme-600
+                  hover:bg-theme-900
+                  p-2
+                  "
+                >Get Plan</NuxtLink
+              >
+              <br>
+              <br>
+              <p class="text-lg sm:text-1xl"><strong> 6-10 </strong>Website</p>
+              <p class="text-lg sm:text-1xl"><strong> 40 </strong>GB Web Space</p>
+              <p class="text-lg sm:text-1xl"><strong> ~ 400,000 </strong>Visits Monthly</p>
+              <p class="text-lg sm:text-1xl"><strong> Unmetered </strong>Traffic</p>
+              <p class="text-lg sm:text-1xl"><strong> Free </strong>SSL</p>
+              <p class="text-lg sm:text-1xl">Daily Backup</p>
+              <p class="text-lg sm:text-1xl"><strong> Free </strong>CDN</p>
+              <p class="text-lg sm:text-1xl"><strong> Free </strong>Email</p>
+              <p class="text-lg sm:text-1xl">Enhanced<strong> Security </strong></p>
+              <p class="text-lg sm:text-1xl"><strong> Ecommerce </strong>Enabled</p>
+              <p class="text-lg sm:text-1xl"><strong> Managed </strong>WordPress</p>
+              <p class="text-lg sm:text-1xl"><strong> Out-of-the-box </strong>Caching</p>
+              <p class="text-lg sm:text-1xl"><strong> Unlimited </strong>Databases</p>
+              <p class="text-lg sm:text-1xl">100% renewable energy match</p>
+              <p class="text-lg sm:text-1xl">30-Days<strong> Money-Back </strong></p>
+              <p class="text-lg sm:text-1xl"><strong> Add Collaborators </strong></p>
+              <p class="text-lg sm:text-4xl"><strong> &#43; </strong></p>
+              <p class="text-medium font-bold sm:text-1xl"> On-demand Backup Copies </p>
+              <p class="text-medium font-bold sm:text-1xl"> 30% Faster PHP </p>
+              <p class="text-medium font-bold sm:text-1xl"> Staging + Git </p>
+              <p class="text-medium font-bold sm:text-1xl"> White-label Clients </p>
+              <p class="text-medium font-bold sm:text-1xl"> Highest Tier of Resources </p>
+              <p class="text-medium font-bold sm:text-1xl"> Priority Support </p>
+
             </div>
           </div>
         </div>
@@ -289,15 +233,16 @@
                 rounded-md
                 sm:col-span-2
                 border-brown-400
+                text-center
+                space-y-2
+
               "
             >
-              <h1 class="text-3xl font-bold text-white">
-                Book An Appointment To Get Direct Developer Price
-              </h1>
-              <NuxtLink
+            <NuxtLink
                 to="/book-an-appointment"
                 class="
                   inline-block
+                  items-center
                   font-medium
                   text-white
                   transition
@@ -307,8 +252,14 @@
                   px-6
                   py-3
                 "
-                >Book an Appointment</NuxtLink
+                >Compare Hosting Plans</NuxtLink
               >
+              <br>
+              <br>
+              <h1 class="text-1xl font-bold text-white">
+                We require an annual purchase paid in advance for the special price to apply. Special prices are applicable for your first invoice. For all subsequent renewals regular prices apply.
+              </h1>
+              
             </div>
           </div>
         </div>
